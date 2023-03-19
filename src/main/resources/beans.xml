@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="Addobj" class = "com.assignment1.springcore.Address">
+        	<property name="street" value="648"></property>
+        	<property name="city" value="Bhopal"></property>
+        	<property name="state" value="Madhya Pradesh"></property>
+        	<property name="zip" value="450220"></property>
+        	<property name="country" value="India"></property>
+        </bean>
+        
+        <bean id="CustObj" class = "com.assignment1.springcore.Customer">
+        	<property name="customerId" value="101"></property>
+        	<property name="customerName" value="Abhivan Kumar"></property>
+        	<property name="customerContact" value="1234567890"></property>
+        	<property name="customerAddress" value="Bhopal mp"></property>
+        </bean>
+        
+        
+        
+</beans>
